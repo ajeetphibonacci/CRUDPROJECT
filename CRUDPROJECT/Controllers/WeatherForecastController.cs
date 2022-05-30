@@ -1,7 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CRUDPROJECT.Controllers
 {
+    /// <summary>
+    ///     YOU CAN USE AUTHORIZE PRICESS WITH HELP PF[AUTHORIZE]
+    ///     using Microsoft.AspNetCore.Authorization;
+    /// </summary>
+
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
